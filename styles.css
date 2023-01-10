@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+    -webkit-font-smoothing: inherit;
+}
+
+body{
+    background-color:rgb(32, 33, 34);
+    font-size: 12px;
+    font-family: sans-serif;
+    color:#fff;
+    margin:0px;
+}
+
+#text{
+    display: none;
+    text-align:center;
+    position:relative;
+    top:130px;
+    font-size:50px;
+    color:rgb(252, 238, 144);
+}
+
+.button-center{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    position:relative;
+    top:200px;
+}
+
+
+.logo{
+    position:sticky;
+    top:50px;
+    text-align:center;
+}
+
+/* CSS */
+.button-91 {
+  color: #fff;
+  padding: 5px 20px;
+  background-color: #38D2D2;
+  background-image: radial-gradient(93% 87% at 87% 89%, rgba(0, 0, 0, 0.23) 0%, transparent 86.18%), radial-gradient(66% 66% at 26% 20%, rgba(255, 255, 255, 0.55) 0%, rgba(255, 255, 255, 0) 69.79%, rgba(255, 255, 255, 0) 100%);
+  box-shadow: inset -3px -3px 9px rgba(255, 255, 255, 0.25), inset 0px 3px 9px rgba(255, 255, 255, 0.3), inset 0px 1px 1px rgba(255, 255, 255, 0.6), inset 0px -8px 36px rgba(0, 0, 0, 0.3), inset 0px 1px 5px rgba(255, 255, 255, 0.6), 2px 19px 31px rgba(0, 0, 0, 0.2);
+  border-radius: 14px;
+  font-weight: bold;
+  font-size: 16px;
+
+  border: 0;
+
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+
+  cursor: pointer;
+}
+
+
+.footer-container{
+    position:absolute;
+    width:100%;
+    padding: 10px;
+    bottom:10px;
+    text-align:center;
+    border-top: 1px solid #7EB77F;
+    
+}
+
+.copyright {
+    margin-top: 5px;
+    letter-spacing: 0.05em;
+}
